@@ -1,1 +1,171 @@
-[Uploading Tarea #993.txt…]()
+1.-Hola Mundo:
+#!/bin/bash
+echo "Hola mundo"
+
+2.-Hola Mundo con Variable:
+#!/bin/bash
+SALUDO="Hola mundo"
+echo "Este script te dice: ${SALUDO}"
+
+3.-Uso de Variables:
+#!/bin/bash
+una_variable=666
+MI_NOMBRE="Richard"
+NOMBRES="Iñigo Asier Sten Roberto Pello"
+BOOLEANO=true
+echo "Echemos un ojo a las variables"
+echo "Un número: ${una_variable}"
+echo "Un nombre ${MI_NOMBRE}"
+echo "Un grupo de nombres: ${NOMBRES}"
+
+4.-Uso de Arrays:
+#!/bin/bash
+asociaciones[0]="Gruslin"
+asociaciones[1]="Hackresi"
+asociaciones[2]="NavarradotNET"
+asociaciones[3]="Riberlug"
+partidos=("UPN" "PSN" "CDN" "IUN" "Nafarroa BAI" "RCN" )
+numeros=(15 23 45 42 23 1337 23 666 69)
+echo "${asociaciones[0]} es una asociación, ${partidos[1]} un partido"
+
+5.-Uso de Variables y Operaciones Aritméticas:
+#!/bin/bash
+VALOR1=23
+VALOR2=45
+
+RESULTADO=$(expr $VALOR1 + $VALOR2)
+echo "Resultado: ${RESULTADO}"
+
+RESULTADO=$((VALOR1 + VALOR2 + 3))
+echo "Resultado: ${RESULTADO}"
+
+6.-Operaciones Lógicas:
+#!/bin/bash
+BOOLEANO=true
+
+$BOOLEANO && echo "OK" || echo "No es true"
+
+7.-Condicionales:
+#!/bin/bash
+VARIABLE=45
+if [ $VARIABLE -gt 0 ]; then
+    echo "${VARIABLE} es mayor que 0"
+fi
+
+if [ -e /etc/shadow ]; then
+    echo "OK, parece que tienes un sistema con shadow pass"
+fi
+
+OTRA=-23
+if [ $OTRA -lt 0 ]; then
+    echo "${OTRA} es menor que 0"
+else
+    echo "${OTRA} es mayor que 0"
+fi
+
+8.-Condicionales con Entrada del Usuario:
+#!/bin/bash
+
+echo -n "Mete un valor: "
+read VALOR1
+echo -n "Mete otro valor: "
+read VALOR2
+
+echo "Has introducido los valores ${VALOR1} y ${VALOR2}"
+
+if [ $VALOR1 -gt $VALOR2 ]; then
+    echo "${VALOR1} es mayor que ${VALOR2}"
+elif [ $VALOR1 -lt $VALOR2 ]; then
+    echo "${VALOR1} es menor que ${VALOR2}"
+else
+    echo "${VALOR1} y ${VALOR2} son iguales"
+fi
+
+9.-Condicionales con Test:
+#!/bin/bash
+
+test -f './fichero.txt' || touch fichero.txt
+
+10.-Condicionales con Comprobaciones de Ficheros:
+#!/bin/bash
+
+if [ -e $1 ] && [ -f $1 ]; then
+    echo "OK, el fichero existe"
+else
+    echo "NO existe"
+fi
+
+11.-Condicionales con Comparaciones de Ficheros:
+#!/bin/bash
+
+if [ fichero1 -nt fichero2 ]; then
+    echo "fichero1 es más reciente que fichero2"
+elif [ fichero1 -ot fichero2 ]; then
+    echo "fichero1 es más viejo que fichero2"
+else
+    echo "fichero1 y fichero2 tienen la misma fecha de modificación"
+fi
+
+12.-Bucle For Simple:
+#!/bin/bash
+
+echo "FOR simple: "
+for i in a b c d e f g h i; do
+    echo "letra: $i"
+done
+
+13.-Bucle For para Recorrer un Array:
+#!/bin/bash
+
+NOMBRES="Diego Sten Asier Pello Roberto"
+echo "FOR simple para recorrer un array: "
+echo "Participantes en la 4party: "
+for i in $NOMBRES; do
+    echo $i
+done
+
+14.-Bucle For con el Resultado de un Comando:
+#!/bin/bash
+
+echo "FOR con el resultado de un comando"
+for i in $(cat direcciones.txt); do
+    echo $i
+done
+
+15.-Bucle For con un Grupo de Ficheros:
+#!/bin/bash
+
+echo "FOR con ficheros"
+for i in *.sh; do
+    ls -lh $i
+done
+
+16.-Bucle For Clásico con un Índice:
+#!/bin/bash
+
+echo "FOR clásico "
+for ((cont=0; cont < 10; cont=cont+1)); do
+    echo "Ahora valgo> $cont"
+done
+
+17.-Estructura While:
+#!/bin/bash
+
+echo "WHILE en marcha"
+cont=0
+while [ $cont -lt 100 ]; do
+    cont=$(($cont+10))
+    echo "Valor del contador: $cont"
+done
+echo "Valor final del contador: $cont"
+
+18.-Estructura Until:
+#!/bin/bash
+
+echo "Estructura Until"
+cont=15
+until [ $cont -lt 0 ]; do
+    cont=$(($cont-1))
+    echo "Valor del contador: $cont"
+done
+echo "Valor final del contador: $cont"
