@@ -169,3 +169,4 @@ until [ $cont -lt 0 ]; do
     echo "Valor del contador: $cont"
 done
 echo "Valor final del contador: $cont"
+
