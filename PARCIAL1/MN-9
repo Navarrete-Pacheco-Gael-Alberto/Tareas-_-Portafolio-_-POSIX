@@ -1,0 +1,23 @@
+#!/bin/bash
+
+test -f './fichero.txt' || touch fichero.txt
+
+10.-Condicionales con Comprobaciones de Ficheros:
+#!/bin/bash
+
+if [ -e $1 ] && [ -f $1 ]; then
+    echo "OK, el fichero existe"
+else
+    echo "NO existe"
+fi
+
+11.-Condicionales con Comparaciones de Ficheros:
+#!/bin/bash
+
+if [ fichero1 -nt fichero2 ]; then
+    echo "fichero1 es más reciente que fichero2"
+elif [ fichero1 -ot fichero2 ]; then
+    echo "fichero1 es más viejo que fichero2"
+else
+    echo "fichero1 y fichero2 tienen la misma fecha de modificación"
+fi

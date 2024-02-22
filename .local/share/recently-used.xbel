@@ -791,4 +791,53 @@
       </metadata>
     </info>
   </bookmark>
+  <bookmark href="file:///home/navarrete/Tareas-_-Portafolio-_-POSIX/demomen.cast" added="2024-02-22T15:34:50.858234Z" modified="2024-02-22T15:34:52.299681Z" visited="2024-02-22T15:34:50.858236Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gedit %U&apos;" modified="2024-02-22T15:34:50.858240Z" count="1"/>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2024-02-22T15:34:52.299678Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/navarrete/Banana.pub" added="2024-02-22T15:51:04.136418Z" modified="2024-02-22T15:51:30.207209Z" visited="2024-02-22T15:51:04.136419Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.ms-publisher"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;libreoffice --draw %U&apos;" modified="2024-02-22T15:51:10.811326Z" count="2"/>
+          <bookmark:application name="LibreOffice 7.3" exec="&apos;soffice %u&apos;" modified="2024-02-22T15:51:30.207202Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/navarrete/Banana" added="2024-02-22T15:51:49.764525Z" modified="2024-02-22T15:51:55.231046Z" visited="2024-02-22T15:51:49.764528Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gedit %U&apos;" modified="2024-02-22T15:51:49.764548Z" count="1"/>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2024-02-22T15:51:55.231043Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/navarrete/GIFs" added="2024-02-22T21:01:26.916831Z" modified="2024-02-22T21:01:26.916837Z" visited="2024-02-22T21:01:26.916833Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2024-02-22T21:01:26.916835Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
 </xbel>

@@ -457,3 +457,43 @@ asciinema rec PIPE
 asciinema upload PIPE
 PATH=$HOME/.cargo/bin
 agg PIPE PIPE.gif
+git innit
+git --help
+git init
+git status
+git add .
+git commit -m "PARCIAL1"
+ssh-add ~/.ssh/ssh-sample-connection
+ssh-add ~/.ssh/SHA256:XXocYqV1V0KBJlZuwujiwHXrXBbqfBT6KOKdK5eZE1c
+ssh-add ~/.ssh/git@github.com:Navarrete-Pacheco-Gael-Alberto/Tareas-_-Portafolio-_-POSIX.git
+ssh-add ~/.ssh/
+git bash
+git push --ste-upstream origin master
+git push origin main
+clear
+git init
+git status
+git add .
+git statu
+git status
+git commit -m "PARCIAL1"
+ssh-add ~/.ssh/main
+git push --ste-upstream origin master
+eval $(ssh-agent)
+exec ssh-agent bash
+ssh-add ~/.ssh/main "ssh-sample-connection"
+ssh-add ~/.ssh/"ssh-sample-connection"
+ssh-add ~/.ssh/ssh-sample-connection
+clear
+ssh-keygen -t ed25519 -c "230300764@ucaribe.edu.mx"
+ssh-keygen -t ed25519 -C "230300764@ucaribe.edu.mx"
+eval $(ssh-agent)
+exec ssh-agent bash
+ls .ssh
+git innit
+git init
+git status
+clear
+git init
+git status
+clear

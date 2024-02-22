@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="chrome://browser/content/contentSearchUI.css" />
     <link rel="stylesheet" href="chrome://activity-stream/content/css/activity-stream.css" />
   </head>
-  <!-- Cached: Thu, 22 Feb 2024 15:31:23 GMT -->
+  <!-- Cached: Thu, 22 Feb 2024 15:56:35 GMT -->
   <body class="activity-stream">
     <div id="header-asrouter-container" role="presentation"></div>
     <div id="root">
@@ -35,14 +35,14 @@ window.__STARTUP_STATE__ = {
 		"rows": [
 			{
 				"isDefault": true,
-				"url": "https://www.amazon.com.mx/?tag=admarketdskmx-20&ref=pd_sl_acc096c5b788584ea5ddc776c0fcd39f96c0407ef4e632baf8d248ef&mfadid=adm",
+				"url": "https://www.amazon.com.mx/?tag=admarketdskmx-20&ref=pd_sl_7e3a3b98aed74c37a9bdb6105e71d16025e1323600c5f0f79dd84da4&mfadid=adm",
 				"hostname": "amazon",
 				"sendAttributionRequest": false,
 				"label": "Amazon",
 				"show_sponsored_label": true,
 				"sponsored_position": 1,
-				"sponsored_click_url": "https://bridge.lga1.ap01.net/ctp?version=16.0.0&ci=1708611792037.12791&key=1708611792302300001.1&ctag=pd_sl_acc096c5b788584ea5ddc776c0fcd39f96c0407ef4e632baf8d248ef",
-				"sponsored_impression_url": "https://imp.mt48.net/static?id=7RHzfOIXjFEYsBdvIpkX4Zba4QlX4ZqYfZbYfZbWfpbX7ReNxR3UIG8zInwYIFIVs9eYiGINHrwkiFXwxYIZjF8XgClWfC2X7R4dHQ8zJnErj%3DcO7R4dHQfz4Z2Z4CxnHG3Z5FwqgCfX1p8d4Cxr1BINI9HuiF2z4Z2Z4CxnHmcux%3DcvImauiF2zfQlYfpxZ7ncqIr7VjGbuiF2zfCfafCqdfQqnj9wWIBdvIpkY7R4TJr2uJREuHnEYgClnHr7wHG3vjnDuiF2z4Zf%2B7ReTHF4wJFEUjtdvIpkXfpbr",
+				"sponsored_click_url": "https://bridge.lga1.ap01.net/ctp?version=16.0.0&ci=1708615153866.12791&key=1708615153302300009.1&ctag=pd_sl_7e3a3b98aed74c37a9bdb6105e71d16025e1323600c5f0f79dd84da4",
+				"sponsored_impression_url": "https://imp.mt48.net/static?id=7RHzfOIXjFEYsBdvIpkX4Zba4QldfCDZfZbYfZbWfpb%2B7ReNxR3UIG8zInwYIFIVs9eYiGINHrwkiFXwxYIZjF8XgClWfC2X7R4dHQ8zJnErj%3DcO7R4dHQfz4Z2Z4CxnHG3Z5FwqgCfX1p8d4Cxr1BINI9HuiF2z4Z2Z4CxnHmcux%3DcvImauiF2zfQlYfpxZ7ncqIr7VjGbuiF2zfCfafCqdfQqnj9wWIBdvIpkY7R4TJr2uJREuHnEYgClnHr7wHG3vjnDuiF2z4Zf%2B7ReTHF4wJFEUjtdvIpkXfpbr",
 				"sponsored_tile_id": 74357,
 				"partner": "amp",
 				"favicon": "https://contile-images.services.mozilla.com/obgoOYObjIFea_bXuT6L4LbBJ8j425AD87S1HMD3BWg.9991.jpg",
@@ -51,14 +51,14 @@ window.__STARTUP_STATE__ = {
 			},
 			{
 				"isDefault": true,
-				"url": "https://www.booking.com/index.es.html?aid=2400981&label=1708611792302300001&mfadid=adm",
+				"url": "https://www.booking.com/index.es.html?aid=2400981&label=1708615153302300009&mfadid=adm",
 				"hostname": "booking",
 				"sendAttributionRequest": false,
 				"label": "Booking.com",
 				"show_sponsored_label": true,
 				"sponsored_position": 2,
-				"sponsored_click_url": "https://bridge.lga1.admarketplace.net/ctp?version=16.0.0&ci=1708611792037.12791&key=1708611792302300001.2&ctag=1708611792302300001",
-				"sponsored_impression_url": "https://imp.mt48.net/static?id=7RHzfOIXjFEYsBdvIpkX4Zba4QlX4ZqYfZbYfZbWfpbX7ReNxR3UIG8zInwYIFIVs9eYiGINHrwkiFXwxYIZjF8XgClWfC2X7R4dHQ8zJnErj%3DcO7R4dHQfz4ZDWfQlnHG3Z5FwqgCfX1p8d4Cxr1BINI9HuiF2z4ZDWfQlnHmcux%3DcvImauiF2zfQ8WfZxr7ncqIr7VjGbuiF2zfCDk1p8afZxnj9wWIBdvIpkY7R4TJr2uJREuHnEYgC8nHr7wHG3vjnDuiF2z4Zx%2B4YIWJ%3DcQIFdwJR2uiF2zfCbW4Wyy",
+				"sponsored_click_url": "https://bridge.lga1.admarketplace.net/ctp?version=16.0.0&ci=1708615153866.12791&key=1708615153302300009.2&ctag=1708615153302300009",
+				"sponsored_impression_url": "https://imp.mt48.net/static?id=7RHzfOIXjFEYsBdvIpkX4Zba4QldfCDZfZbYfZbWfpb%2B7ReNxR3UIG8zInwYIFIVs9eYiGINHrwkiFXwxYIZjF8XgClWfC2X7R4dHQ8zJnErj%3DcO7R4dHQfz4ZDWfQlnHG3Z5FwqgCfX1p8d4Cxr1BINI9HuiF2z4ZDWfQlnHmcux%3DcvImauiF2zfQ8WfZxr7ncqIr7VjGbuiF2zfCDk1p8afZxnj9wWIBdvIpkY7R4TJr2uJREuHnEYgC8nHr7wHG3vjnDuiF2z4Zx%2B4YIWJ%3DcQIFdwJR2uiF2zfCbW4Wyy",
 				"sponsored_tile_id": 75021,
 				"partner": "amp",
 				"favicon": "https://contile-images.services.mozilla.com/LhW1_qiRiy0wYh32NIxBGauerK7vV59laAvuyrXLHGQ.4172.jpg",
@@ -245,14 +245,14 @@ window.__STARTUP_STATE__ = {
 		"links": [
 			{
 				"isDefault": true,
-				"url": "https://www.amazon.com.mx/?tag=admarketdskmx-20&ref=pd_sl_acc096c5b788584ea5ddc776c0fcd39f96c0407ef4e632baf8d248ef&mfadid=adm",
+				"url": "https://www.amazon.com.mx/?tag=admarketdskmx-20&ref=pd_sl_7e3a3b98aed74c37a9bdb6105e71d16025e1323600c5f0f79dd84da4&mfadid=adm",
 				"hostname": "amazon",
 				"sendAttributionRequest": false,
 				"label": "Amazon",
 				"show_sponsored_label": true,
 				"sponsored_position": 1,
-				"sponsored_click_url": "https://bridge.lga1.ap01.net/ctp?version=16.0.0&ci=1708611792037.12791&key=1708611792302300001.1&ctag=pd_sl_acc096c5b788584ea5ddc776c0fcd39f96c0407ef4e632baf8d248ef",
-				"sponsored_impression_url": "https://imp.mt48.net/static?id=7RHzfOIXjFEYsBdvIpkX4Zba4QlX4ZqYfZbYfZbWfpbX7ReNxR3UIG8zInwYIFIVs9eYiGINHrwkiFXwxYIZjF8XgClWfC2X7R4dHQ8zJnErj%3DcO7R4dHQfz4Z2Z4CxnHG3Z5FwqgCfX1p8d4Cxr1BINI9HuiF2z4Z2Z4CxnHmcux%3DcvImauiF2zfQlYfpxZ7ncqIr7VjGbuiF2zfCfafCqdfQqnj9wWIBdvIpkY7R4TJr2uJREuHnEYgClnHr7wHG3vjnDuiF2z4Zf%2B7ReTHF4wJFEUjtdvIpkXfpbr",
+				"sponsored_click_url": "https://bridge.lga1.ap01.net/ctp?version=16.0.0&ci=1708615153866.12791&key=1708615153302300009.1&ctag=pd_sl_7e3a3b98aed74c37a9bdb6105e71d16025e1323600c5f0f79dd84da4",
+				"sponsored_impression_url": "https://imp.mt48.net/static?id=7RHzfOIXjFEYsBdvIpkX4Zba4QldfCDZfZbYfZbWfpb%2B7ReNxR3UIG8zInwYIFIVs9eYiGINHrwkiFXwxYIZjF8XgClWfC2X7R4dHQ8zJnErj%3DcO7R4dHQfz4Z2Z4CxnHG3Z5FwqgCfX1p8d4Cxr1BINI9HuiF2z4Z2Z4CxnHmcux%3DcvImauiF2zfQlYfpxZ7ncqIr7VjGbuiF2zfCfafCqdfQqnj9wWIBdvIpkY7R4TJr2uJREuHnEYgClnHr7wHG3vjnDuiF2z4Zf%2B7ReTHF4wJFEUjtdvIpkXfpbr",
 				"sponsored_tile_id": 74357,
 				"partner": "amp",
 				"favicon": "https://contile-images.services.mozilla.com/obgoOYObjIFea_bXuT6L4LbBJ8j425AD87S1HMD3BWg.9991.jpg",
@@ -261,14 +261,14 @@ window.__STARTUP_STATE__ = {
 			},
 			{
 				"isDefault": true,
-				"url": "https://www.booking.com/index.es.html?aid=2400981&label=1708611792302300001&mfadid=adm",
+				"url": "https://www.booking.com/index.es.html?aid=2400981&label=1708615153302300009&mfadid=adm",
 				"hostname": "booking",
 				"sendAttributionRequest": false,
 				"label": "Booking.com",
 				"show_sponsored_label": true,
 				"sponsored_position": 2,
-				"sponsored_click_url": "https://bridge.lga1.admarketplace.net/ctp?version=16.0.0&ci=1708611792037.12791&key=1708611792302300001.2&ctag=1708611792302300001",
-				"sponsored_impression_url": "https://imp.mt48.net/static?id=7RHzfOIXjFEYsBdvIpkX4Zba4QlX4ZqYfZbYfZbWfpbX7ReNxR3UIG8zInwYIFIVs9eYiGINHrwkiFXwxYIZjF8XgClWfC2X7R4dHQ8zJnErj%3DcO7R4dHQfz4ZDWfQlnHG3Z5FwqgCfX1p8d4Cxr1BINI9HuiF2z4ZDWfQlnHmcux%3DcvImauiF2zfQ8WfZxr7ncqIr7VjGbuiF2zfCDk1p8afZxnj9wWIBdvIpkY7R4TJr2uJREuHnEYgC8nHr7wHG3vjnDuiF2z4Zx%2B4YIWJ%3DcQIFdwJR2uiF2zfCbW4Wyy",
+				"sponsored_click_url": "https://bridge.lga1.admarketplace.net/ctp?version=16.0.0&ci=1708615153866.12791&key=1708615153302300009.2&ctag=1708615153302300009",
+				"sponsored_impression_url": "https://imp.mt48.net/static?id=7RHzfOIXjFEYsBdvIpkX4Zba4QldfCDZfZbYfZbWfpb%2B7ReNxR3UIG8zInwYIFIVs9eYiGINHrwkiFXwxYIZjF8XgClWfC2X7R4dHQ8zJnErj%3DcO7R4dHQfz4ZDWfQlnHG3Z5FwqgCfX1p8d4Cxr1BINI9HuiF2z4ZDWfQlnHmcux%3DcvImauiF2zfQ8WfZxr7ncqIr7VjGbuiF2zfCDk1p8afZxnj9wWIBdvIpkY7R4TJr2uJREuHnEYgC8nHr7wHG3vjnDuiF2z4Zx%2B4YIWJ%3DcQIFdwJR2uiF2zfCbW4Wyy",
 				"sponsored_tile_id": 75021,
 				"partner": "amp",
 				"favicon": "https://contile-images.services.mozilla.com/LhW1_qiRiy0wYh32NIxBGauerK7vV59laAvuyrXLHGQ.4172.jpg",
@@ -908,4 +908,4 @@ window.__STARTUP_STATE__ = {
 	}
 };
 
-®‚&ä·°mÄ           e×hËF—Rêÿÿÿÿ       :about:home alt-data 1;72107,script version 20240125184458  ŸÑ
+§-™Gü           e×n³F—Wÿÿÿÿ       :about:home alt-data 1;72107,script version 20240125184458  ŸÙ

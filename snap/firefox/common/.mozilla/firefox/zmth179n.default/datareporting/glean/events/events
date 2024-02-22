@@ -12,3 +12,5 @@
 {"timestamp":1222575,"category":"translations.panel","name":"open","extra":{"flow_id":"cc438c47-f61c-48aa-9958-4d90b45a4d3f","auto_show":"true","document_language":"en","opened_from":"translationsButton","view_name":"defaultView","first_interaction":"false"}}
 {"timestamp":1225881,"category":"translations.panel","name":"cancel_button","extra":{"first_interaction":"false","flow_id":"cc438c47-f61c-48aa-9958-4d90b45a4d3f"}}
 {"timestamp":1225885,"category":"translations.panel","name":"close","extra":{"first_interaction":"false","flow_id":"cc438c47-f61c-48aa-9958-4d90b45a4d3f"}}
+{"timestamp":2435962,"category":"serp","name":"impression","extra":{"impression_id":"338de849-2d75-4021-96c3-91be6a5d107f","tagged":"true","is_private":"false","source":"urlbar","is_shopping_page":"false","partner_code":"ubuntu-sn","provider":"google","shopping_tab_displayed":"false"}}
+{"timestamp":2437870,"category":"serp","name":"ad_impression","extra":{"ads_loaded":"1","component":"refined_search_buttons","ads_visible":"1","ads_hidden":"0","impression_id":"338de849-2d75-4021-96c3-91be6a5d107f"}}
