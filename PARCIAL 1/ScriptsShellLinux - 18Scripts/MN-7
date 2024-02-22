@@ -1,0 +1,16 @@
+#!/bin/bash
+VARIABLE=45
+if [ $VARIABLE -gt 0 ]; then
+    echo "${VARIABLE} es mayor que 0"
+fi
+
+if [ -e /etc/shadow ]; then
+    echo "OK, parece que tienes un sistema con shadow pass"
+fi
+
+OTRA=-23
+if [ $OTRA -lt 0 ]; then
+    echo "${OTRA} es menor que 0"
+else
+    echo "${OTRA} es mayor que 0"
+fi

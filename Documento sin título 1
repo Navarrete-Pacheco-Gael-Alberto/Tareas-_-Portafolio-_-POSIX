@@ -1,0 +1,39 @@
+1.- creo o actualizo mis tareas
+2.- git add. = git add tareas.pdf
+3.- git commit ...
+
+git
+mkdir tareas
+git clone del repo
+git init
+
+Is
+Is a*
+Is a??
+Is a*cd
+Is a?cd
+
+ls folder
+ls folder/*
+chmcd
+
+comando para calificaciones saber si reprobo o no con and or 
+
+Programa en terminal binbash acerca de conocer cuantos alumnos reprobraon y los que aprobaron, la cual debe usarse los codigos del Pipe
+
+#!/bin/bash
+
+if [ $# -eq 0 ]; then
+    echo "Por favor, proporciona el nombre del archivo de calificaciones como argumento."
+    exit 1
+fi
+
+aprobados=$(grep -c '^[0-9]\{1,2\}$' "$1")
+reprobados=$(grep -c '^[0-4][0-9]$' "$1")
+
+echo "Número de alumnos que aprobaron: $aprobados"
+echo "Número de alumnos que reprobaron: $reprobados"
+
+me puedes decir de como se hace paso a paso
+
+PATH=$HOME/.cargo/bin

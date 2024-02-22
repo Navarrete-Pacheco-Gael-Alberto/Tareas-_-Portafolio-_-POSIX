@@ -1,0 +1,29 @@
+[Data Source]
+DisplayName=230300764@ucaribe.edu.mx
+Enabled=true
+Parent=38ebf30b44bdf709a6f8ae8e70a3868ff733b35d
+
+[Mail Submission]
+SentFolder=folder://local/Sent
+TransportUid=2089b46396cf715ecc29bd871190bf74f4b9a28c
+RepliesToOriginFolder=false
+UseSentFolder=true
+
+[Mail Composition]
+Bcc=
+Cc=
+DraftsFolder=folder://local/Drafts
+ReplyStyle=default
+SignImip=true
+TemplatesFolder=
+StartBottom=inconsistent
+TopSignature=inconsistent
+Language=
+
+[Mail Identity]
+Address=230300764@ucaribe.edu.mx
+Aliases=
+Name=
+Organization=
+ReplyTo=
+SignatureUid=none

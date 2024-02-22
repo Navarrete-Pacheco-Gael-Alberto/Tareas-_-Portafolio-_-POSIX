@@ -1,0 +1,37 @@
+[package]
+name = "rustybuzz"
+version = "0.6.0"
+authors = ["Evgeniy Reizner <razrfalcon@gmail.com>"]
+edition = "2018"
+description = "A complete harfbuzz shaping algorithm port to Rust."
+documentation = "https://docs.rs/rustybuzz/"
+readme = "README.md"
+repository = "https://github.com/RazrFalcon/rustybuzz"
+license = "MIT"
+keywords = ["text", "shaping", "opentype", "truetype"]
+categories = ["text-processing"]
+exclude = ["benches/", "tests/"]
+
+[dependencies]
+bitflags = "1.2"
+bytemuck = { version = "1.5", features = ["extern_crate_alloc"] }
+smallvec = "1.6"
+ttf-parser = { version = "0.17", default-features = false, features = [
+    "opentype-layout",
+    "apple-layout",
+    "variable-fonts",
+    "glyph-names",
+] }
+unicode-bidi-mirroring = "0.1"
+unicode-ccc = "0.1.2"
+unicode-general-category = "0.6"
+unicode-script = "0.5.2"
+libm = { version = "0.2.2", optional = true }
+
+[features]
+default = ["std"]
+std = []
+
+[dev-dependencies]
+pico-args = "0.3"
+libc = "0.2"

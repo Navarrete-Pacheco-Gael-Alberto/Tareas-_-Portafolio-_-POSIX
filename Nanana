@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo "Hola, este es mi primer script."
+echo "La fecha actual es: $(date)"

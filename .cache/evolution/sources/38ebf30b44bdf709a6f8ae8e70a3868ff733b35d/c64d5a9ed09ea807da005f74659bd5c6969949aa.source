@@ -1,0 +1,27 @@
+[Data Source]
+DisplayName=Mis tareas
+Enabled=true
+Parent=38ebf30b44bdf709a6f8ae8e70a3868ff733b35d
+
+[Authentication]
+Host=www.google.com
+Method=OAuth2
+Port=0
+ProxyUid=system-proxy
+RememberPassword=true
+User=230300764@ucaribe.edu.mx
+CredentialName=
+IsExternal=false
+
+[Resource]
+Identity=gtasks::MDcxNTY3NTQ2NDY5MDgxOTk4Mzc6MDow
+
+[Alarms]
+IncludeMe=false
+LastNotified=
+
+[Task List]
+BackendName=gtasks
+Color=#becedd
+Selected=true
+Order=0

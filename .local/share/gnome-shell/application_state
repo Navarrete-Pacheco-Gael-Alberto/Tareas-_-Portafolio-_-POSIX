@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<application-state>
+  <context id="">
+    <application id="update-manager.desktop" score="127" last-seen="1708558620"/>
+    <application id="org.gnome.Nautilus.desktop" score="736" last-seen="1708614767"/>
+    <application id="firefox_firefox.desktop" score="2355" last-seen="1708570873"/>
+    <application id="libreoffice-writer.desktop" score="0" last-seen="1708561708"/>
+    <application id="org.gnome.gedit.desktop" score="210" last-seen="1708614767"/>
+    <application id="org.gnome.eog.desktop" score="1" last-seen="1708566244"/>
+    <application id="org.gnome.Terminal.desktop" score="4212" last-seen="1708614438"/>
+  </context>
+</application-state>

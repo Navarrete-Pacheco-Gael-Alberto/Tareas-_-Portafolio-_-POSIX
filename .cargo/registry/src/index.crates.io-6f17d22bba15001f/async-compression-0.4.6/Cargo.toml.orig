@@ -1,0 +1,90 @@
+[package]
+name = "async-compression"
+version = "0.4.6"
+authors = ["Wim Looman <wim@nemo157.com>", "Allen Bui <fairingrey@gmail.com>"]
+edition = "2018"
+license = "MIT OR Apache-2.0"
+keywords = ["compression", "gzip", "zstd", "brotli", "async"]
+categories = ["compression", "asynchronous"]
+repository = "https://github.com/Nullus157/async-compression"
+description = """
+Adaptors between compression crates and Rust's modern asynchronous IO types.
+"""
+
+[package.metadata.docs.rs]
+all-features = true
+rustdoc-args = ["--cfg", "docsrs"]
+
+[features]
+# groups
+all = ["all-implementations", "all-algorithms"]
+all-implementations = ["futures-io", "tokio"]
+all-algorithms = ["brotli", "bzip2", "deflate", "gzip", "lzma", "xz", "zlib", "zstd", "deflate64"]
+
+# algorithms
+deflate = ["flate2"]
+gzip = ["flate2"]
+lzma = ["xz2"]
+xz = ["xz2"]
+zlib = ["flate2"]
+zstd = ["libzstd", "zstd-safe"]
+zstdmt = ["zstd", "zstd-safe/zstdmt"]
+deflate64 = ["dep:deflate64"]
+
+[dependencies]
+brotli = { version = "3.3", optional = true, default-features = false, features = ["std"] }
+bzip2 = { version = "0.4.4", optional = true }
+flate2 = { version = "1.0.13", optional = true }
+futures-core = { version = "0.3", default-features = false }
+futures-io = { version = "0.3", default-features = false, features = ["std"], optional = true }
+libzstd = { package = "zstd", version = "0.13", optional = true, default-features = false }
+memchr = "2"
+pin-project-lite = "0.2"
+tokio = { version = "1.24.2", optional = true, default-features = false }
+xz2 = { version = "0.1.6", optional = true }
+zstd-safe = { version = "7", optional = true, default-features = false }
+deflate64 = { version = "0.1.5", optional = true }
+
+[[test]]
+name = "brotli"
+required-features = ["brotli"]
+
+[[test]]
+name = "bzip2"
+required-features = ["bzip2"]
+
+[[test]]
+name = "deflate"
+required-features = ["deflate"]
+
+[[test]]
+name = "gzip"
+required-features = ["gzip"]
+
+[[test]]
+name = "lzma"
+required-features = ["lzma"]
+
+[[test]]
+name = "xz"
+required-features = ["xz"]
+
+[[test]]
+name = "zlib"
+required-features = ["zlib"]
+
+[[test]]
+name = "zstd"
+required-features = ["zstd"]
+
+[[test]]
+name = "zstd-dict"
+required-features = ["zstd", "tokio"]
+
+[[example]]
+name = "zlib_tokio_write"
+required-features = ["zlib", "tokio"]
+
+[[example]]
+name = "zstd_gzip"
+required-features = ["zstd", "gzip", "tokio"]

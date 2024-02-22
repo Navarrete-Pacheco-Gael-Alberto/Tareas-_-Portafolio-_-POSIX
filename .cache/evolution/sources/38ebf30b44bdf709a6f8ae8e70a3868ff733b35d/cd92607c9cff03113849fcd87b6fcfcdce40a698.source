@@ -1,0 +1,35 @@
+[Data Source]
+DisplayName=Address Book
+Enabled=true
+Parent=38ebf30b44bdf709a6f8ae8e70a3868ff733b35d
+
+[Authentication]
+Host=www.googleapis.com
+Method=OAuth2
+Port=443
+ProxyUid=system-proxy
+RememberPassword=true
+User=230300764@ucaribe.edu.mx
+CredentialName=
+IsExternal=false
+
+[Security]
+Method=tls
+
+[Resource]
+Identity=contacts::https://www.googleapis.com/carddav/v1/principals/230300764@ucaribe.edu.mx/lists/default/
+
+[WebDAV Backend]
+AvoidIfmatch=false
+CalendarAutoSchedule=false
+Color=
+DisplayName=Address Book
+EmailAddress=
+ResourcePath=/carddav/v1/principals/230300764@ucaribe.edu.mx/lists/default/
+ResourceQuery=
+SslTrust=
+Order=4294967295
+
+[Address Book]
+BackendName=carddav
+Order=0

@@ -1,0 +1,212 @@
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+
+## These messages are used as headings in the recommendation doorhanger
+
+cfr-doorhanger-extension-heading = Extensión recomendada
+cfr-doorhanger-feature-heading = Característica recomendada
+
+##
+
+cfr-doorhanger-extension-sumo-link =
+    .tooltiptext = ¿Por qué estoy viendo esto?
+cfr-doorhanger-extension-cancel-button = Ahora no
+    .accesskey = N
+cfr-doorhanger-extension-ok-button = Agregar ahora
+    .accesskey = A
+cfr-doorhanger-extension-manage-settings-button = Administrar configuraciones de recomendación
+    .accesskey = m
+cfr-doorhanger-extension-never-show-recommendation = No mostrar esta recomendación
+    .accesskey = N
+cfr-doorhanger-extension-learn-more-link = Saber más
+# This string is used on a new line below the add-on name
+# Variables:
+#   $name (String) - Add-on author name
+cfr-doorhanger-extension-author = por { $name }
+# This is a notification displayed in the address bar.
+# When clicked it opens a panel with a message for the user.
+cfr-doorhanger-extension-notification = Recomendación
+cfr-doorhanger-extension-notification2 = Recomendación
+    .tooltiptext = Recomendación de extensión
+    .a11y-announcement = Recomendación de extensión disponible
+# This is a notification displayed in the address bar.
+# When clicked it opens a panel with a message for the user.
+cfr-doorhanger-feature-notification = Recomendación
+    .tooltiptext = Recomendación de la característica
+    .a11y-announcement = Recomendación de las características disponibles
+
+## Add-on statistics
+## These strings are used to display the total number of
+## users and rating for an add-on. They are shown next to each other.
+
+# Variables:
+#   $total (Number) - The rating of the add-on from 1 to 5
+cfr-doorhanger-extension-rating =
+    .tooltiptext =
+        { $total ->
+            [one] { $total } estrella
+           *[other] { $total } estrellas
+        }
+# Variables:
+#   $total (Number) - The total number of users using the add-on
+cfr-doorhanger-extension-total-users =
+    { $total ->
+        [one] { $total } usuario
+       *[other] { $total } usuarios
+    }
+
+## Firefox Accounts Message
+
+cfr-doorhanger-bookmark-fxa-header = Sincroniza tus marcadores en todas partes.
+cfr-doorhanger-bookmark-fxa-body = ¡Gran hallazgo! Ahora no te quedes sin este marcador en tus dispositivos móviles. Coemienza con una { -fxaccount-brand-name }.
+cfr-doorhanger-bookmark-fxa-link-text = Sincronizar marcadores ahora...
+cfr-doorhanger-bookmark-fxa-close-btn-tooltip =
+    .aria-label = Botón Cerrar
+    .title = Cerrar
+
+## Protections panel
+
+cfr-protections-panel-header = Navega sin que te sigan
+cfr-protections-panel-body = Que tu información se quede en tus manos. { -brand-short-name } te protege de muchos de los rastreadores comunes que te espían al explorar la web.
+cfr-protections-panel-link-text = Más información
+
+## What's New toolbar button and panel
+
+# This string is used by screen readers to offer a text based alternative for
+# the notification icon
+cfr-badge-reader-label-newfeature = Nueva característica:
+cfr-whatsnew-button =
+    .label = Novedades
+    .tooltiptext = Novedades
+cfr-whatsnew-release-notes-link-text = Lee el informe de novedades
+
+## Enhanced Tracking Protection Milestones
+
+# Variables:
+#   $blockedCount (Number) - The total count of blocked trackers. This number will always be greater than 1.
+#   $date (Datetime) - The date we began recording the count of blocked trackers
+cfr-doorhanger-milestone-heading2 =
+    { $blockedCount ->
+        [one] { -brand-short-name } ha bloqueado más de <b>{ $blockedCount }</b> rastreador desde { DATETIME($date, month: "long", year: "numeric") }
+       *[other] { -brand-short-name } ha bloqueado más de <b>{ $blockedCount }</b> rastreadores desde { DATETIME($date, month: "long", year: "numeric") }
+    }
+cfr-doorhanger-milestone-ok-button = Ver todo
+    .accesskey = V
+cfr-doorhanger-milestone-close-button = Cerrar
+    .accesskey = C
+
+## DOH Message
+
+cfr-doorhanger-doh-body = Tu privacidad importa. { -brand-short-name } ahora enruta de forma segura tus solicitudes DNS siempre que sea posible a un servicio asociado para protegerte mientras navegas.
+cfr-doorhanger-doh-header = Búsquedas DNS más seguras y encriptadas
+cfr-doorhanger-doh-primary-button-2 = Aceptar
+    .accesskey = A
+cfr-doorhanger-doh-secondary-button = Deshabilitar
+    .accesskey = D
+
+## Fission Experiment Message
+
+cfr-doorhanger-fission-body-approved = Tu privacidad importa. { -brand-short-name } ahora aísla, sitios web unos de otros, lo que hace que sea más difícil que los piratas informáticos roben contraseñas, números de tarjetas de crédito y otra información sensible.
+cfr-doorhanger-fission-header = Aislamiento del sitio
+cfr-doorhanger-fission-primary-button = OK, entendido
+    .accesskey = O
+cfr-doorhanger-fission-secondary-button = Saber más
+    .accesskey = L
+
+## Full Video Support CFR message
+
+cfr-doorhanger-video-support-body = Es posible que los videos de este sitio no se reproduzcan correctamente en esta versión de { -brand-short-name }. Para obtener compatibilidad completa de video, actualiza { -brand-short-name } ahora.
+cfr-doorhanger-video-support-header = Actualiza { -brand-short-name } para reproducir video
+cfr-doorhanger-video-support-primary-button = Actualizar ahora
+    .accesskey = A
+
+## Spotlight modal shared strings
+
+spotlight-learn-more-collapsed = Aprender más
+    .title = Expande para aprender más acerca de la funcionalidad
+spotlight-learn-more-expanded = Saber más
+    .title = Cerrar
+
+## VPN promotion dialog for public Wi-Fi users
+##
+## If a user is detected to be on a public Wi-Fi network, they are given a
+## bit of info about how to improve their privacy and then offered a button
+## to the Mozilla VPN page and a link to dismiss the dialog.
+
+# This header text can be explicitly wrapped.
+spotlight-public-wifi-vpn-header = Parece que estás usando una red Wi-Fi pública
+spotlight-public-wifi-vpn-body = Para ocultar tu ubicación y actividad de navegación, considera usar una red privada virtual. Te ayudará a mantenerte protegido al navegar en lugares públicos como aeropuertos y cafeterías.
+spotlight-public-wifi-vpn-primary-button = Mantente en privado con { -mozilla-vpn-brand-name }
+    .accesskey = S
+spotlight-public-wifi-vpn-link = Ahora no
+    .accesskey = A
+
+## Total Cookie Protection Rollout
+
+# "Test pilot" is used as a verb. Possible alternatives: "Be the first to try",
+# "Join an early experiment". This header text can be explicitly wrapped.
+spotlight-total-cookie-protection-header =
+    Prueba nuestra experiencia de 
+    privacidad más poderosa de la historia
+spotlight-total-cookie-protection-body = La protección total contra las cookies evita que los rastreadores usen cookies para seguirte en la web.
+# "Early access" for this feature rollout means it's a "feature preview" or
+# "soft launch" as not everybody will get it yet.
+spotlight-total-cookie-protection-expanded = { -brand-short-name } construye un cerco alrededor de tus cookies, limitándolas al sitio en el que estás, para que los rastreadores no las puedan usar para seguirte. Con el acceso anticipado, ayudarás a optimizar esta funcionalidad para que sigamos construyendo una mejor web para todos.
+spotlight-total-cookie-protection-primary-button = Activar la protección total contra las cookies
+spotlight-total-cookie-protection-secondary-button = Ahora no
+
+## Emotive Continuous Onboarding
+
+spotlight-better-internet-header = Un mejor internet comienza contigo
+spotlight-better-internet-body = Cuando usas { -brand-short-name } estás eligiendo un internet abierto y accesible, lo cual es mejor para todos.
+spotlight-peace-mind-header = Nosotros te protegemos
+spotlight-peace-mind-body = Cada mes, { -brand-short-name } bloquea un promedio de 3,000 rastreadores por usuario. Porque nada, especialmente lo que molesta tu privacidad como los rastreadores, debe interponerse para que tengas un buen Internet.
+spotlight-pin-primary-button =
+    { PLATFORM() ->
+        [macos] Mantener en el Dock
+       *[other] Fijar en la barra de tareas
+    }
+spotlight-pin-secondary-button = Ahora no
+#kɛ��      e�Te�UF~'e�/       :https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/ms-language-packs/008403fd-6c09-4891-a831-8a8b5ea543de.ftl strongly-framed 1 security-info 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 request-method GET response-head HTTP/2 200 OK
+x-guploader-uploadid: ABPtcPpB63LxpmaVMeUpVeD3A3vvjLRu1CFuFHLOMznRMRgWDmV1CjM6lhMB9-QSOAacldYrl9uwmUXDFg
+x-goog-generation: 1678377797507546
+x-goog-metageneration: 1
+x-goog-stored-content-encoding: identity
+x-goog-stored-content-length: 8325
+x-goog-meta-goog-reserved-file-mtime: 1648229365
+x-goog-hash: crc32c=7ShVkw==, md5=HsfYXZ0DgPmEdnRI8G2zPg==
+x-goog-storage-class: STANDARD
+accept-ranges: bytes
+content-length: 8325
+server: UploadServer
+date: Thu, 25 Jan 2024 23:54:08 GMT
+cache-control: public,max-age=604800
+age: 9141
+last-modified: Thu, 09 Mar 2023 16:03:17 GMT
+etag: "1ec7d85d9d0380f984767448f06db33e"
+content-type: application/octet-stream
+alt-svc: clear
+X-Firefox-Spdy: h2
+ original-response-headers x-guploader-uploadid: ABPtcPpB63LxpmaVMeUpVeD3A3vvjLRu1CFuFHLOMznRMRgWDmV1CjM6lhMB9-QSOAacldYrl9uwmUXDFg
+x-goog-generation: 1678377797507546
+x-goog-metageneration: 1
+x-goog-stored-content-encoding: identity
+x-goog-stored-content-length: 8325
+x-goog-meta-goog-reserved-file-mtime: 1648229365
+x-goog-hash: crc32c=7ShVkw==
+x-goog-hash: md5=HsfYXZ0DgPmEdnRI8G2zPg==
+x-goog-storage-class: STANDARD
+accept-ranges: bytes
+content-length: 8325
+server: UploadServer
+date: Thu, 25 Jan 2024 23:54:08 GMT
+cache-control: public,max-age=604800
+age: 9141
+last-modified: Thu, 09 Mar 2023 16:03:17 GMT
+etag: "1ec7d85d9d0380f984767448f06db33e"
+content-type: application/octet-stream
+alt-svc: clear
+X-Firefox-Spdy: h2
+ ctid 1    �
