@@ -1,6 +1,0 @@
-#!/bin/bash
-
-echo "FOR con ficheros"
-for i in *.sh; do
-    ls -lh $i
-done

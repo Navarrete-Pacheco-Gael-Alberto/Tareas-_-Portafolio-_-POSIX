@@ -1,9 +1,0 @@
-{"timestamp":8106957,"category":"newtab","name":"opened","extra":{"newtab_visit_id":"{664b0aee-b92c-4c30-baca-2d240fd85c25}","source":"about:newtab"},"execution_counter":2}
-{"timestamp":8107031,"category":"topsites","name":"impression","extra":{"newtab_visit_id":"{664b0aee-b92c-4c30-baca-2d240fd85c25}","is_sponsored":"false","position":"7"},"execution_counter":2}
-{"timestamp":8107034,"category":"topsites","name":"impression","extra":{"position":"4","newtab_visit_id":"{664b0aee-b92c-4c30-baca-2d240fd85c25}","is_sponsored":"false"},"execution_counter":2}
-{"timestamp":8107057,"category":"topsites","name":"impression","extra":{"newtab_visit_id":"{664b0aee-b92c-4c30-baca-2d240fd85c25}","advertiser_name":"amazon","is_sponsored":"true","position":"0","tile_id":"74357"},"execution_counter":2}
-{"timestamp":8107076,"category":"topsites","name":"impression","extra":{"tile_id":"75021","advertiser_name":"booking.com","is_sponsored":"true","newtab_visit_id":"{664b0aee-b92c-4c30-baca-2d240fd85c25}","position":"1"},"execution_counter":2}
-{"timestamp":8107076,"category":"topsites","name":"impression","extra":{"is_sponsored":"false","position":"6","newtab_visit_id":"{664b0aee-b92c-4c30-baca-2d240fd85c25}"},"execution_counter":2}
-{"timestamp":8107084,"category":"topsites","name":"impression","extra":{"newtab_visit_id":"{664b0aee-b92c-4c30-baca-2d240fd85c25}","is_sponsored":"false","position":"5"},"execution_counter":2}
-{"timestamp":8107085,"category":"topsites","name":"impression","extra":{"position":"3","is_sponsored":"false","newtab_visit_id":"{664b0aee-b92c-4c30-baca-2d240fd85c25}"},"execution_counter":2}
-{"timestamp":8107086,"category":"topsites","name":"impression","extra":{"newtab_visit_id":"{664b0aee-b92c-4c30-baca-2d240fd85c25}","is_sponsored":"false","position":"2"},"execution_counter":2}

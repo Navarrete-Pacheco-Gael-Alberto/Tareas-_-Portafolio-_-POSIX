@@ -1,6 +1,0 @@
-#!/bin/bash
-
-echo "FOR con el resultado de un comando"
-for i in $(cat direcciones.txt); do
-    echo $i
-done

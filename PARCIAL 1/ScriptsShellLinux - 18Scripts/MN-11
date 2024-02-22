@@ -1,9 +1,0 @@
-#!/bin/bash
-
-if [ fichero1 -nt fichero2 ]; then
-    echo "fichero1 es más reciente que fichero2"
-elif [ fichero1 -ot fichero2 ]; then
-    echo "fichero1 es más viejo que fichero2"
-else
-    echo "fichero1 y fichero2 tienen la misma fecha de modificación"
-fi

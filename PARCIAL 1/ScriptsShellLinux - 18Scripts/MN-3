@@ -1,9 +1,0 @@
-#!/bin/bash
-una_variable=666
-MI_NOMBRE="Richard"
-NOMBRES="Iñigo Asier Sten Roberto Pello"
-BOOLEANO=true
-echo "Echemos un ojo a las variables"
-echo "Un número: ${una_variable}"
-echo "Un nombre ${MI_NOMBRE}"
-echo "Un grupo de nombres: ${NOMBRES}"

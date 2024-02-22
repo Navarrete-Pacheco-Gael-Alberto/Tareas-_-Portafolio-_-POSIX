@@ -1,4 +1,0 @@
-#!/bin/bash
-BOOLEANO=true
-
-$BOOLEANO && echo "OK" || echo "No es true"
