@@ -497,3 +497,17 @@ clear
 git init
 git status
 clear
+git init
+git status
+git add .
+git commit -m "Parcial1 Terminal"
+git push origin main
+git push origin master
+ls -al ~/.ssh
+git push origin
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
+git push origin master
+git push origin Banana
+git push origin github.com:Navarrete-Pacheco-Gael-Alberto/Tareas-_-Portafolio-_-POSIX.git
+ssh -T git@github.com
